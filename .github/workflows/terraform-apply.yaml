@@ -17,7 +17,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  aws-verification:
+  tf-apply:
     runs-on: ubuntu-latest
     defaults:
       run:
